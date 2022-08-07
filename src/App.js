@@ -7,6 +7,7 @@ import Random from './Random/Random'
 import Login from './Authentication/Login/Login';
 import Register from './Authentication/Register/Register';
 import RequireAuth from './Authentication/RequireAuth/RequireAuth';
+import PageNotFound from './PageNotFound/PageNotFound';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         </Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
+        <Route path='*' element={<PageNotFound></PageNotFound>}></Route> 
       </Routes>
     </div>
   );
