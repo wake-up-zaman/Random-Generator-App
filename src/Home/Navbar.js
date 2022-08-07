@@ -8,7 +8,7 @@ const Navbar = () => {
     const [user, loading, error] = useAuthState(auth);
     const logout = () => {
         signOut(auth);
-        localStorage.removeItem('accessToken');
+        localStorage.removeItem('Your Number');
     };
     return (
         <nav class="navbar navbar-light nav-main">
