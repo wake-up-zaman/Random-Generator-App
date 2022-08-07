@@ -2,13 +2,14 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDfwTdlhz0UPwwsYMXtVvy-sUfmjb5pQSI",
-  authDomain: "random-generator-f1ecc.firebaseapp.com",
-  projectId: "random-generator-f1ecc",
-  storageBucket: "random-generator-f1ecc.appspot.com",
-  messagingSenderId: "689133461757",
-  appId: "1:689133461757:web:b3e8bf588f731beb91de94"
+  apiKey: "AIzaSyC4sorABnl5i5mOtY2OGytOvOiHCb2nE_g",
+  authDomain: "random-number-generator-32661.firebaseapp.com",
+  projectId: "random-number-generator-32661",
+  storageBucket: "random-number-generator-32661.appspot.com",
+  messagingSenderId: "702781960781",
+  appId: "1:702781960781:web:e99724cecc0781937d6204"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
