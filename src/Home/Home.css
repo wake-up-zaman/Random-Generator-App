@@ -1,0 +1,70 @@
+.nav-main{
+    background-color: rgb(150, 205, 233);
+    height: 70px;
+}
+
+.login{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+    color: rgb(9, 12, 12);
+    width: 80px;
+    height: 30px;
+}
+.title{
+    background-color: rgb(150, 205, 233);
+    border: none;
+    color: rgb(13, 10, 10);
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.home-main{
+    background-color: #1E293B;
+    height: 100vh;
+    padding: 100px;
+
+}
+.home{
+    margin-top: 80px;
+}
+.welcome{
+    color: rgb(232, 60, 109);
+}
+.random{
+    color: rgb(19, 226, 219);
+}
+.random-button{
+    border: none;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+.random-button2{
+    border: none;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+.random-main{
+    background-color: #1E293B;
+    min-height: 100vh;
+}
+.lotti{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 540px) {
+    .home{
+        margin-top: 60px;
+        width: 400px;
+    }
+
+  }
