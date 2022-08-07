@@ -14,13 +14,13 @@ const Home = () => {
         }
     };
     return (
-        <div className='home-main'>
-            <div class="d-flex justify-content-center">
-                <div class="d-flex flex-column-reverse">
-                    <div class="home">
+        <div className='home'>
+            <div class="d-flex justify-content-center ">
+                <div class="d-flex flex-column-reverse home-content">
+                    <div class="w-100 mt-5">
                         <h3 className='text-center random'>Random Generator Application</h3>
                         <h4 className='text-center text-light'>Find Unique Random Number Among All The Registered Users</h4>
-                        <div className='d-flex justify-content-center mt-3'>
+                        <div className='d-flex justify-content-center mt-5'>
                             <Link to='/random'><button className='random-button'>Get Random Number</button></Link>
                         </div>
                     </div>

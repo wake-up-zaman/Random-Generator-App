@@ -19,14 +19,13 @@
     font-size: 20px;
     font-weight: bold;
 }
-.home-main{
-    background-color: #1E293B;
-    height: 100vh;
-    padding: 100px;
+.home-content{
+    margin-top: 100px;
 
 }
 .home{
-    margin-top: 80px;
+    background-color: #1E293B;
+    height: 100vh;
 }
 .welcome{
     color: rgb(232, 60, 109);
@@ -55,6 +54,9 @@
     background-color: #1E293B;
     min-height: 100vh;
 }
+.random-content{
+    margin-top: 200px;
+}
 .lotti{
     width: 80%;
     display: flex;
@@ -63,8 +65,7 @@
 
 @media only screen and (max-width: 540px) {
     .home{
-        margin-top: 60px;
-        width: 400px;
+
     }
 
   }

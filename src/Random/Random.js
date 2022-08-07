@@ -17,14 +17,14 @@ const Random = () => {
 
     return (
         <div className='random-main'>
-            <div className='d-flex justify-content-center'>
-                <div className=''>
+            <div className='d-flex justify-content-center '>
+                <div className='random-content'>
 
                     <div className='d-flex justify-content-around mb-2'>
                     </div>
 
                     <div className='mt-4 text-primary'>
-                        <h4>Your Random Number: {localStorage.getItem('Your Number')}</h4>
+                        <h3>Your Random Number: {localStorage.getItem('Your Number')}</h3>
                     </div>
                     <div className='mt-5'>
                         <button className='random-button2' onClick={handleRandomNum}>Get Your Number</button>
